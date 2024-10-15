@@ -26,6 +26,13 @@
 - 🖥️ **User-Friendly Interface**: Minimal setup required to start scanning right away.
 
 ---
+## ⚙️ Supported Distributions
+- Arch Linux
+- Debian/Ubuntu
+- Fedora
+- CentOS/RHEL
+- openSUSE
+> - The installer automatically adapts to your Linux distribution and installs all necessary dependencies accordingly.
 
 ## 📥 Installation
 
@@ -61,18 +68,18 @@ Before running any commands, you must activate the virtual environment set up by
 source /opt/venvs/ScanexEZ/bin/activate
 ```
 After activation, you can start using ScanexEZ to scan your target URLs.
-1. Run a Scan: Simply provide the target URL and let ScanexEZ do the rest:
+1. **Run a Scan**: Simply provide the target URL and let ScanexEZ do the rest:
 
 ```bash
 python3 ScanexEZ.py <target_url>
 ```
--Replace <target_url> with the URL you want to scan.
--Example:
+- Replace <target_url> with the URL you want to scan.
+- Example:
 
 ```bash
 python3 ScanexEZ.py https://example.com/search?q=test
 ```
-2. Output:
+2. **Output**:
 ScanexEZ will provide detailed information about detected vulnerabilities, categorized by severity.
 
 
