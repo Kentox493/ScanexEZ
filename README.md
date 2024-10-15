@@ -39,3 +39,12 @@ Ensure you have the following before starting:
    ```bash
    git clone https://github.com/yourusername/scanexez.git
    cd scanexez
+2. **Run the Installer:** The installation script is designed to automatically detect your Linux distribution and        install the necessary dependencies.
+   ```bash
+    sudo ./install.sh
+3. **What Happens During Installation:**
+   > The installer updates your system's package list.
+   > Installs critical dependencies such as Python, Java, ZAP, and Go.
+   > Sets up a virtual environment in /opt/venvs/ScanexEZ.
+   > Clones and installs several security tools (SQLmap, Dalfox, OpenRedireX, etc.)
+4. **Post-Installation:** After the installation completes, activate the virtual environment to use ScanexEZ.
