@@ -1,4 +1,4 @@
-## ⚡️ ScanexEZ : **Your Ultimate URL Parameter Penetration Testing Tool**⚡️
+## ⚡️ ScanexEZ : **Your Ultimate URL Parameter Penetration Testing Tool** ⚡️
 ![ScanexEZ Banner](img/logo.png)
 
 ---
