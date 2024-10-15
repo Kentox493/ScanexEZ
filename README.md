@@ -72,19 +72,22 @@ Before running any commands, you must activate the virtual environment set up by
 ```bash
 source /opt/venvs/ScanexEZ/bin/activate
 ```
-After activation, you can start using ScanexEZ to scan your target URLs.
-1. **Run a Scan**: Simply provide the target URL and let ScanexEZ do the rest:
+
+**Run a Scan**: 
+- Once the virtual environment is activated, run the ScanexEZ tool by executing the following command
 
 ```bash
-python3 ScanexEZ.py <target_url>
+sudo python3 ScanexEZ.py 
 ```
-- Replace <target_url> with the URL you want to scan.
-- Example:
+You will be presented with the ScanexEZ interface, which offers multiple scan options:
+- Scans available:
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Local File Inclusion (LFI)
+- Cross-Site Request Forgery (CSRF)
+- Open Redirect
+- Run All Scans
+> You can choose to scan a single URL or input a file with multiple URLs. Enter the target URL (for example: https://example.com/search?q=test) or the file path.
 
-```bash
-python3 ScanexEZ.py https://example.com/search?q=test
-```
-2. **Output**:
-ScanexEZ will provide detailed information about detected vulnerabilities, categorized by severity.
 
 
