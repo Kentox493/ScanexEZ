@@ -37,8 +37,8 @@ Ensure you have the following before starting:
 ### 🛠️ Installation Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/scanexez.git
-   cd scanexez
+   git clone https://github.com/Kentox493/ScanexEZ.git
+   cd ScanexEZ
    
 2. **Run the Installer:** The installation script is designed to automatically detect your Linux distribution and        install the necessary dependencies.
    ```bash
@@ -52,3 +52,27 @@ Ensure you have the following before starting:
   > - Clones and installs several security tools (SQLmap, Dalfox, OpenRedireX, etc.)
     - 
 5. **Post-Installation:** After the installation completes, activate the virtual environment to use ScanexEZ.
+
+### 🖥️ Usage
+IMPORTANT: Activate the Virtual Environment First
+Before running any commands, you must activate the virtual environment set up by the installer:
+
+```bash
+source /opt/venvs/ScanexEZ/bin/activate
+```
+After activation, you can start using ScanexEZ to scan your target URLs.
+1. Run a Scan: Simply provide the target URL and let ScanexEZ do the rest:
+
+```bash
+python3 ScanexEZ.py <target_url>
+```
+-Replace <target_url> with the URL you want to scan.
+-Example:
+
+```bash
+python3 ScanexEZ.py https://example.com/search?q=test
+```
+2. Output:
+ScanexEZ will provide detailed information about detected vulnerabilities, categorized by severity.
+
+
