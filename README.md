@@ -1,4 +1,4 @@
-# ⚡️ ScanexEZ ⚡️
+## ⚡️ ScanexEZ ⚡️
 ![ScanexEZ Banner](img/logo.png)
 
 ---
@@ -32,7 +32,7 @@
 - Fedora
 - CentOS/RHEL
 - openSUSE
-> - The installer automatically adapts to your Linux distribution and installs all necessary dependencies accordingly.
+> The installer automatically adapts to your Linux distribution and installs all necessary dependencies accordingly.
 
 ## 📥 Installation
 
