@@ -45,7 +45,7 @@ Ensure you have the following before starting:
     sudo ./install.sh
    
 3. **What Happens During Installation:**
-    -
+    
   > - The installer updates your system's package list.
   > - Installs critical dependencies such as Python, Java, ZAP, and Go.
   > - Sets up a virtual environment in /opt/venvs/ScanexEZ.
