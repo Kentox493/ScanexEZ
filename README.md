@@ -43,8 +43,8 @@ Ensure you have the following before starting:
    ```bash
     sudo ./install.sh
 3. **What Happens During Installation:**
-   > The installer updates your system's package list.
-   > Installs critical dependencies such as Python, Java, ZAP, and Go.
-   > Sets up a virtual environment in /opt/venvs/ScanexEZ.
-   > Clones and installs several security tools (SQLmap, Dalfox, OpenRedireX, etc.)
+   > - The installer updates your system's package list.
+   > - Installs critical dependencies such as Python, Java, ZAP, and Go.
+   > - Sets up a virtual environment in /opt/venvs/ScanexEZ.
+   > - Clones and installs several security tools (SQLmap, Dalfox, OpenRedireX, etc.)
 4. **Post-Installation:** After the installation completes, activate the virtual environment to use ScanexEZ.
