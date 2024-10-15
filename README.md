@@ -37,5 +37,5 @@ Ensure you have the following before starting:
 ### 🛠️ Installation Instructions
 1. **Clone the Repository**:
    ```bash
-  > git clone https://github.com/yourusername/scanexez.git
-  > cd scanexez
+   git clone https://github.com/yourusername/scanexez.git
+   cd scanexez
