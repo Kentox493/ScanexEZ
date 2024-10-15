@@ -1,5 +1,5 @@
 # ⚡️ ScanexEZ ⚡️
-![ScanexEZ Banner](img/logo.jpg)
+![ScanexEZ Banner](img/logo.png)
 
 ---
 
