@@ -26,6 +26,7 @@
 - 🖥️ **User-Friendly Interface**: Minimal setup required to start scanning right away.
 
 ---
+
 ## ⚙️ Supported Distributions
 - Arch Linux
 - Debian/Ubuntu
@@ -33,6 +34,8 @@
 - CentOS/RHEL
 - openSUSE
 > The installer automatically adapts to your Linux distribution and installs all necessary dependencies accordingly.
+
+---
 
 ## 📥 Installation
 
@@ -59,6 +62,8 @@ Ensure you have the following before starting:
   > - Clones and installs several security tools (SQLmap, Dalfox, OpenRedireX, etc.)
     - 
 5. **Post-Installation:** After the installation completes, activate the virtual environment to use ScanexEZ.
+
+---
 
 ### 🖥️ Usage
 IMPORTANT: Activate the Virtual Environment First
