@@ -26,9 +26,6 @@
 ## ⚙️ Supported Distributions
 - Arch Linux
 - Debian/Ubuntu
-- Fedora
-- CentOS/RHEL
-- openSUSE
 > The installer automatically adapts to your Linux distribution and installs all necessary dependencies accordingly.
 
 ---
